@@ -1,0 +1,2 @@
+#!/bin/bashsh
+chmod --refrence=olleh hello 
