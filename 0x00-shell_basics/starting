@@ -1,2 +1,2 @@
 #!/bin/ban
-ls -la ..
+ls -aln
