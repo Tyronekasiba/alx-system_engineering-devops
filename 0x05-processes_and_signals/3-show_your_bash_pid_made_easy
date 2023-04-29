@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this is a bash script that displays the pid, along witk the process name of whose name contain the word bash.
+
+pgrep -flx ".*bash.*"
