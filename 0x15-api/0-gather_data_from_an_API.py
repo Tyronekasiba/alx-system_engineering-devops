@@ -7,9 +7,8 @@ import requests
 import sys
 
 
-"""REST API url"""
 API = "https://jsonplaceholder.typicode.com"
-
+"""REST API url"""
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
