@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-a Python script that, uses  REST API, for a given employee ID, returns information about his/her TODO list progress.
+Using https://jsonplaceholder.typicode.com
+returns info about employee TODO progress
+Implemented using recursion
 """
 import re
 import requests
@@ -9,6 +11,7 @@ import sys
 
 API = "https://jsonplaceholder.typicode.com"
 """REST API url"""
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
